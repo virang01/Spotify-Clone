@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy , we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you in new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down"></i>
+                        Install App
+                    </button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <img src="./assets/ap.jpeg" class="card-image">
+                       <p class="card-title">Excuses</p>
+                       <p class="card-info">Song and lyrics by AP Dhillon...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <img src="./assets/card2img.jpeg" class="card-image">
+                       <p class="card-title">Mahiye Jinna Sohna</p>
+                       <p class="card-info">In Beautiful voice of Darshan Raval...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/card3img.jpeg" class="card-image">
+                       <p class="card-title">Mere Passs Tum Ho</p>
+                       <p class="card-info">Slient Ocean by rahat fateh Ali Khan...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/3i.jpeg" class="card-image">
+                       <p class="card-title">All Izz Well - 3 Idiots</p>
+                       <p class="card-info">Song by Shaan, Sonu Nigam...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/kishore song.jpeg" class="card-image">
+                       <p class="card-title">Pal Pal Dil Ke Pass</p>
+                       <p class="card-info">Song by Kishore Kumar from Blackmail</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/kabira.jpeg" class="card-image">
+                       <p class="card-title">Kabira - Yeh Jawaani Hai Deewani</p>
+                       <p class="card-info">Song by Arijit Singh, Harshdeep Kaur...</p>
+                    </div>
+                    
+                    
+                </div>
+
+                <h2>Playlists you might like</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <img src="./assets/ARR.jpeg" class="card-image">
+                       <p class="card-title">A.R.Rahman Special</p>
+                       <p class="card-info">India's Best Singer...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/Arijit Singh.jpeg" class="card-image">
+                       <p class="card-title">Arijit Singh Special</p>
+                       <p class="card-info">Voice of purer love...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/yoyo.jpeg" class="card-image">
+                       <p class="card-title">Yo Yo Honey Singh</p>
+                       <p class="card-info">Father of Rappers && King of bluethooth Era is back...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/Omshanti.jpeg" class="card-image">
+                       <p class="card-title">Om Shanti Om</p>
+                       <p class="card-info">A playlist which has old bollywood songs vibes ...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/lukas.jpeg" class="card-image">
+                       <p class="card-title">Lukas Graham Special</p>
+                       <p class="card-info">All hits of Danish pop band...</p>
+                    </div>
+                </div>
+
+                <h2>Popular Artists</h2>
+                <div class="cards-container">
+                    <div class="card101">
+                       <img src="./assets/kishor.jpeg" class="card-image1">
+                       <p class="card-title">Kishore Kumar</p>
+                       <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card101">
+                       <img src="./assets/mohmadrafi.jpeg" class="card-image1">
+                       <p class="card-title">Mohd.Rafi</p>
+                       <p class="card-info">King of voices one and only Mohmad Rafi...</p>
+                    </div>
+                    <div class="card101">
+                       <img src="./assets/sanu.jpeg" class="card-image1">
+                       <p class="card-title">Kumar Sanu</p>
+                       <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card101">
+                       <img src="./assets/udit.jpeg" class="card-image1">
+                       <p class="card-title">Udit Narayan</p>
+                       <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card101">
+                       <img src="./assets/sonu.jpeg" class="card-image1">
+                       <p class="card-title">Sonu Nigam</p>
+                       <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card101">
+                       <img src="./assets/karan.jpeg" class="card-image1">
+                       <p class="card-title">Karan Aujla</p>
+                       <p class="card-info">Artist</p>
+                    </div>
+                </div>
+
+                 <h2>Female Artists</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <img src="./assets/lata.jpeg" class="card-image">
+                       <p class="card-title">Lata Mangeshkar</p>
+                       <p class="card-info">one of the popular Female Artist in the world...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/alka-yagnik-wiki.jpg" class="card-image">
+                       <p class="card-title">Alka Yagnik</p>
+                       <p class="card-info">one of the popular Female Artist in the world...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/shreya.jpeg" class="card-image">
+                       <p class="card-title">Shreya Ghoshal</p>
+                       <p class="card-info">one of the popular Female Artist in the world...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/sunidhi.jpeg" class="card-image">
+                       <p class="card-title">Sunidhi Chauhan</p>
+                       <p class="card-info">one of the popular Female Artist in the world...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <img src="./assets/card5img.jpeg" class="card-image">
+                       <p class="card-title">Top Songs Global</p>
+                       <p class="card-info">Most listening songs all over the world...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/card6img.jpeg" class="card-image">
+                       <p class="card-title">Top Songs India</p>
+                       <p class="card-info">Most listening sonds in India...</p>
+                    </div>
+                    <div class="card">
+                       <img src="./assets/card1img.jpeg" class="card-image">
+                       <p class="card-title">Top 50 - Global</p>
+                       <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/album_picture.jpeg" class="currently-running">
+                <div class="names">
+                <span class="song-name">Daylight</span>
+                <span class="singer-name">David Kushner</span>
+                </div>
+                <img src="./assets/album_icon1.png" class="album-icons fir">
+                <img src="./assets/album_icon2.png" class="album-icons sec">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">2:08</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">4:12</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/controls_icon1.png" class="control-icons icon1">
+                <img src="./assets/controld_icon2.png" class="control-icons icon2">
+                <img src="./assets/controls_icon3.png" class="control-icons icon3">
+                <img src="./assets/controls_icon4.png" class="control-icons icon4">
+                <img src="./assets/controls_icon5.png" class="control-icons icon5">
+                <input type="range" min="0" max="100" class="voice-bar" step="1">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
